@@ -1,0 +1,21 @@
+body {
+	background-image: url(/img/startdungeon.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 200%;
+}
+.commandline {
+	background-color: black;
+	margin-top: 50%;
+	padding: 2%;
+	height: 300px;
+	border: 5px double gray;
+	overflow: scroll;
+}
+.question {
+	color: white;
+	height: 120px;
+}
+.lastanswer {
+	color: green;
+}

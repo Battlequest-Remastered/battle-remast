@@ -15,3 +15,7 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('/adventure/{id}', 'HomeController@firstquestion');
+
+Route::get('/adventure/{id}/{answerid}', 'HomeController@question');

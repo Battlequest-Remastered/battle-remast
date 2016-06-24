@@ -14,7 +14,7 @@ class CreateQuestionsTable extends Migration {
 	{
 		Schema::create('questions', function($table) {
 			$table->increments('id');
-			$table->string('question');
+			$table->string('question', 1000000000);
 			$table->string('is_ending');
 			$table->timestamps();
 		});
