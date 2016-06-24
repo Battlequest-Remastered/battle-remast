@@ -302,6 +302,162 @@ class AnswersSeeder extends Seeder {
 		$answer->answer = "Yes";
 		$answer->leads_to_id = 28;
 		$answer->save();
+
+// Round 8 (questions 24-28)
+		$answer = new Answer();
+		$answer->question_id = 25;
+		$answer->answer = "Socialism";
+		$answer->leads_to_id = 26;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 25;
+		$answer->answer = "Umm...";
+		$answer->leads_to_id = 26;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 25;
+		$answer->answer = "Humans";
+		$answer->leads_to_id = 29;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 25;
+		$answer->answer = "I know the answer...but how about you tell me just so I can see if I'm right?";
+		$answer->leads_to_id = 26;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 28;
+		$answer->answer = "Yes";
+		$answer->leads_to_id = 30;
+		$answer->save();
+
+// Round 9 (questions 29-30)
+		$answer = new Answer();
+		$answer->question_id = 29;
+		$answer->answer = "Babes, babes, and more babes!";
+		$answer->leads_to_id = 31;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 29;
+		$answer->answer = "You, dragon, I love you!";
+		$answer->leads_to_id = 32;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 29;
+		$answer->answer = "A Dire Straights reunion tour!";
+		$answer->leads_to_id = 33;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 29;
+		$answer->answer = "To escape this dungeon!";
+		$answer->leads_to_id = 31;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 30;
+		$answer->answer = "Yeah, I'm good";
+		$answer->leads_to_id = 34;
+		$answer->save();
+
+// Round 10 (question 31)
+		$answer = new Answer();
+		$answer->question_id = 31;
+		$answer->answer = "Of course I'll comply! I love you!";
+		$answer->leads_to_id = 35;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 31;
+		$answer->answer = "What? Hell no!";
+		$answer->leads_to_id = 36;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 31;
+		$answer->answer = "Ask about the homeowner's association";
+		$answer->leads_to_id = 37;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 31;
+		$answer->answer = "Fine. I'll comply";
+		$answer->leads_to_id = 38;
+		$answer->save();
+
+// Round 11 (questions 37-38)
+		$answer = new Answer();
+		$answer->question_id = 37;
+		$answer->answer = "Hell Yes!";
+		$answer->leads_to_id = 39;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 37;
+		$answer->answer = "Hell No!";
+		$answer->leads_to_id = 36;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 38;
+		$answer->answer = "Yes";
+		$answer->leads_to_id = 40;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 38;
+		$answer->answer = "No";
+		$answer->leads_to_id = 41;
+		$answer->save();
+
+// Round 12 (question 40)
+		$answer = new Answer();
+		$answer->question_id = 40;
+		$answer->answer = "Alive";
+		$answer->leads_to_id = 42;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 40;
+		$answer->answer = "Dead";
+		$answer->leads_to_id = 42;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 40;
+		$answer->answer = "I don't care about the wizard! I care about you! I love you, Sage!";
+		$answer->leads_to_id = 43;
+		$answer->save();
+
+// Final Round
+		$answer = new Answer();
+		$answer->question_id = 42;
+		$answer->answer = "Become the Wizard";
+		$answer->leads_to_id = 44;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 42;
+		$answer->answer = "Escape the dungeon";
+		$answer->leads_to_id = 45;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 42;
+		$answer->answer = "Love";
+		$answer->leads_to_id = 46;
+		$answer->save();
+
+		$answer = new Answer();
+		$answer->question_id = 42;
+		$answer->answer = "Ban books with mature content";
+		$answer->leads_to_id = 47;
+		$answer->save();
 	}
 }
 ?>

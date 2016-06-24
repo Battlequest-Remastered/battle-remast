@@ -5,7 +5,7 @@
 		<div class="commandline">
 			<span class="lastanswer">{{{$lastanswer->answer}}}</span>
 			<br>
-			<span class="question">{{{$question->question}}}</span>
+			<span class="question">{{$question->question}}</span>
 			@foreach($answers as $answer)
 			<br>
 				<a href="{{{action('HomeController@question', array($answer->leads_to_id, $answer->id))}}}">{{{$answer->answer}}}</a>
