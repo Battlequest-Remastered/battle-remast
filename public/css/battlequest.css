@@ -2,7 +2,7 @@ body {
 	background-image: url(/img/startdungeon.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100% 300%;
+	background-size: 100% 200%;
 	overflow-x: hidden;
 }
 .commandline {
@@ -34,4 +34,13 @@ a {
 a:hover {
 	text-decoration: none;
 	color: yellow;
+}
+.mobile {
+	margin-left: 20%;
+}
+.supersmall {
+	margin-left: 10%;
+}
+.reallysupersmall {
+	margin-left: 7%;
 }
