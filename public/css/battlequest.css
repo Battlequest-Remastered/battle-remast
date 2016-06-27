@@ -17,12 +17,19 @@ body {
 	height: 120px;
 }
 .lastanswer {
-	color: green;
+	color: yellow;
 }
 .description {
 	color: white;
-	width: 500px;
+	width: 350px;
 }
 .white {
 	color: white;
+}
+a {
+	color: orange;
+}
+a:hover {
+	text-decoration: none;
+	color: yellow;
 }
