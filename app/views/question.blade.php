@@ -10,6 +10,10 @@
 			<br>
 				<a href="{{{action('HomeController@question', array($answer->leads_to_id, $answer->id))}}}">{{{$answer->answer}}}</a>
 			@endforeach
+			<br>
+			@if($question->is_ending == "Yes") 
+				<a href="{{{action('HomeController@firstquestion', 1)}}}">Play Again</a>
+			@endif
 		</div>
 	</div>
 </div>

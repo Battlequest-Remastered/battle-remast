@@ -19,3 +19,7 @@ body {
 .lastanswer {
 	color: green;
 }
+.description {
+	color: white;
+	width: 500px;
+}
