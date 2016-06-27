@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 <div class="row">
-	<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4">
+	<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-12">
 		<div class="commandline">
 			<span class="lastanswer">{{{$lastanswer->answer}}}</span>
 			<br>

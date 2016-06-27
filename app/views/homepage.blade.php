@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 <div class="row">
-	<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4">
+	<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-12">
 		<div class="commandline">
 			<p class="description">Developed in 1982, Battlequest (or "Battle Quest" as it was called in its original iteration) was responsible for the sudden boom of text-based adventure games in the mid to late 80's. It exceeded all theorised sales figures, taking the world (as well as the entertainment industry) by surprise. For the first time in history, crawling through dungeons and meeting wizards and dragons was something that could be done somewhere other than a tabletop.<br>
 			For all of its success and its influence on modern gaming, however, Battlequest was unfortunately released far too early for its content. Though 80's America was on the verge of social progressivism, an interactive experience in which a homosexual relationship was possible was not something that the general public was prepared to accept. Battlequest was also criticized by President Reagan for its heavy-handed critique of suburban culture. As if criticism from both left and right wing America was not enough, Battlequest also faced criticism from critics independent of politics. The ironic tone of the game was written off as tonal inconsistency, and critics at the time had a hard time believing that a computer game was worth a buyer's time, especially given the busy schedule of the average American in the early 80's.<br>
