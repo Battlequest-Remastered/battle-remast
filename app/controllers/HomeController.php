@@ -21,6 +21,9 @@ class HomeController extends BaseController {
 
 	public function firstquestion($id) {
 		$question = Question::find($id);
+		if($question == null || $question->id != 1) {
+			App::abort(404);
+		}
 		$answers = DB::table('answers')->where('question_id', $id)->get();
 		return View::make('firstquestion')->with('question', $question)->with('answers', $answers);
 	}
@@ -28,6 +31,9 @@ class HomeController extends BaseController {
 	public function question($id, $answerid) {
 		$question = Question::find($id);
 		$lastanswer = Answer::find($answerid);
+		if($question == null || $lastanswer == null || $lastanswer->leads_to_id != $question->id) {
+			App::abort(404);
+		}
 		$answers = DB::table('answers')->where('question_id', $id)->get();
 		return View::make('question')->with('question', $question)->with('answers', $answers)->with('lastanswer', $lastanswer);
 	}

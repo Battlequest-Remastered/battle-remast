@@ -1,5 +1,9 @@
 <?php
 
+App::missing(function($exception)
+{
+    return Response::view('missing', array(), 404);
+});
 /*
 |--------------------------------------------------------------------------
 | Register The Laravel Class Loader
