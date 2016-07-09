@@ -9,7 +9,7 @@ body {
 }
 .commandline {
 	background-color: black;
-	margin-top: 200px;
+	margin-top: 55%;
 	padding: 2%;
 	height: 300px;
 	width: 350px;
@@ -40,10 +40,14 @@ a:hover {
 }
 .mobile {
 	margin-left: 20%;
+	margin-top: 60%;
+
 }
 .supersmall {
 	margin-left: 10%;
+	margin-top: 68%;
 }
 .reallysupersmall {
 	margin-left: 7%;
+	margin-top: 70%;
 }
