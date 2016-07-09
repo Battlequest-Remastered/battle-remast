@@ -1,9 +1,9 @@
 html {
-    transform: scale(.5);
-    -webkit-transform: scale(.5);
-    -moz-transform: scale(.5);
-    -ms-transform: scale(.5);
-    -o-transform: scale(.5);
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
     width: 200%;
     height: 200%;
     margin: -50% -50%;
