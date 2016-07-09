@@ -1,3 +1,13 @@
+html {
+    transform: scale(.5);
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    -o-transform: scale(.5);
+    width: 200%;
+    height: 200%;
+    margin: -50% -50%;
+}
 body {
 	background-image: url(/img/BQ_cover.png);
 	background-position: center;
@@ -5,7 +15,7 @@ body {
 	background-size: 100% 100%;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	padding-bottom: 50%;
+	padding-bottom: 200px;
 }
 .commandline {
 	background-color: black;
