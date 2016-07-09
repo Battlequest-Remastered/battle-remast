@@ -52,7 +52,7 @@ class QuestionsSeeder extends Seeder {
 
 	// 9
 		$question = new Question();
-		$question->question = "The voice falls silent";
+		$question->question = "The voice falls silent. <br> You just wait there for a second. <br> 'Hello?' You call out. There is no response. You suddenly realized that you've ruined your one chance to escape the dungeon. <br> 'Wait! I didn't mean it!' You call. There is no response.";
 		$question->is_ending = "Yes";
 		$question->save();
 
@@ -100,7 +100,7 @@ class QuestionsSeeder extends Seeder {
 
 	// 17
 		$question = new Question();
-		$question->question = "'We are the Knights who say...Ni!!!' You shout. <br> You hear nothing in response. You call out again, and receive no answer";
+		$question->question = "'We are the Knights who say...Ni!!!' You shout. <br> You hear nothing in response. <br> '.........Ni?' <br> No response. You close your eyes and feel tears start to stream down your face. <br> 'Ickyickyickyptangzoomboingnnzrrzzmm' You whisper to yourself through your sobs. <br> Now you will never escape";
 		$question->is_ending = "Yes";
 		$question->save();
 

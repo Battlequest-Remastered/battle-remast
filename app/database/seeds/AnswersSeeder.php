@@ -49,7 +49,7 @@ class AnswersSeeder extends Seeder {
 		$answer = new Answer();
 		$answer->question_id = 2;
 		$answer->answer = "SCREAAAM!!!";
-		$answer->leads_to_id = 8;
+		$answer->leads_to_id = 5;
 		$answer->save();
 
 		$answer = new Answer();
@@ -73,7 +73,7 @@ class AnswersSeeder extends Seeder {
 		$answer = new Answer();
 		$answer->question_id = 3;
 		$answer->answer = "SCREEEAM!!!";
-		$answer->leads_to_id = 8;
+		$answer->leads_to_id = 5;
 		$answer->save();
 
 		$answer = new Answer();
@@ -122,7 +122,7 @@ class AnswersSeeder extends Seeder {
 		$answer = new Answer();
 		$answer->question_id = 6;
 		$answer->answer = "SCREEEEAM!!!";
-		$answer->leads_to_id = 12;
+		$answer->leads_to_id = 5;
 		$answer->save();
 
 		$answer = new Answer();
@@ -146,7 +146,7 @@ class AnswersSeeder extends Seeder {
 		$answer = new Answer();
 		$answer->question_id = 7;
 		$answer->answer = "SCREEEEAM!!!";
-		$answer->leads_to_id = 12;
+		$answer->leads_to_id = 5;
 		$answer->save();
 
 		$answer = new Answer();
@@ -206,7 +206,7 @@ class AnswersSeeder extends Seeder {
 
 		$answer = new Answer();
 		$answer->question_id = 12;
-		$answer->answer = "No";
+		$answer->answer = "SCREEEEEEEEAAAAAAAAM!!!";
 		$answer->leads_to_id = 13;
 		$answer->save();
 
